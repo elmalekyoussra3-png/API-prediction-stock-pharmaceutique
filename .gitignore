@@ -1,0 +1,19 @@
+# Environnements virtuels
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Modèles entraînés et exports (volumineux, régénérables via le notebook)
+*.pkl
+models.zip
+df_engineered.csv
+
+# Fichiers de configuration sensibles
+.env
+
+# Checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Système
+.DS_Store
