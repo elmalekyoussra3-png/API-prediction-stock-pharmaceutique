@@ -12,7 +12,7 @@ Ce projet prédit la demande journalière de 8 catégories de médicaments à pa
 - [Endpoints de l'API](#-endpoints-de-lapi)
 - [Exemples d'utilisation](#-exemples-dutilisation)
 - [Résultats](#-résultats)
-- [Auteur](#-auteur)
+- [Auteurs](#-auteurs)
 
 ## 🔎 Aperçu du projet
 
@@ -135,9 +135,10 @@ curl "http://localhost:8000/predict-most-demanded?date=2027-08-15"
 
 Les performances (MAE, MAPE, R²) de chaque modèle par médicament sont calculées et comparées dans le notebook (cellules d'évaluation). Le meilleur modèle entre Random Forest et XGBoost est sélectionné automatiquement par médicament selon le R² obtenu sur l'ensemble de test.
 
-## 👤 Auteur
+## 👤 Auteurs
 
-El Malek Youssra
+- El Malek Youssra
+- Wahi Hassna
 
 ---
 
